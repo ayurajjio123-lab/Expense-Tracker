@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Daily Expense Tracker",
+    "slug": "daily-expense-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0F0D"
+    },
+    "android": {
+      "package": "com.example.dailyexpensetracker",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0B0F0D"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.dailyexpensetracker"
+    },
+    "icon": "./assets/icon.png",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
