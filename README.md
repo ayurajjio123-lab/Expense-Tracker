@@ -12,7 +12,7 @@ You can download and install the Android version of the application directly fro
 
 ### ⬇️ Download APK
 
-[**📲 Download Daily Expense Tracker APK**](./Daily-Expense-Tracker.apk)
+[**📲 Daily Expense Tracker APK**](./Daily-Expense-Tracker.apk)
 
 > **Note:** The APK is intended for Android devices. Download the APK on your Android device and install it to try the application.
 
