@@ -1,0 +1,31 @@
+{
+  "design_reference": "user supplied reference image",
+  "ui_rule": "no visual redesign; match the reference",
+  "menu_position": "top-left on Home",
+  "drawer_position": "left",
+  "separate_files": true,
+  "files": [
+    "App.js",
+    "README_EXACT_UI.md",
+    "src/components/Card.js",
+    "src/components/ExpenseRow.js",
+    "src/components/Header.js",
+    "src/components/Screen.js",
+    "src/context/AppContext.js",
+    "src/screens/AddExpenseScreen.js",
+    "src/screens/AnalyticsScreen.js",
+    "src/screens/BudgetScreen.js",
+    "src/screens/CalendarScreen.js",
+    "src/screens/CategoriesScreen.js",
+    "src/screens/DataManagementScreen.js",
+    "src/screens/HomeScreen.js",
+    "src/screens/LockScreen.js",
+    "src/screens/MenuDrawer.js",
+    "src/screens/RecurringScreen.js",
+    "src/screens/SearchScreen.js",
+    "src/screens/SettingsScreen.js",
+    "src/storage/storage.js",
+    "src/utils/date.js",
+    "src/utils/theme.js"
+  ]
+}
