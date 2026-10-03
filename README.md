@@ -1,53 +1,43 @@
 # 💰 Daily Expense Tracker
 
-A mobile-first expense tracking application built with **React Native and Expo**.  
-Daily Expense Tracker helps users record, manage, search, and analyze their expenses through a clean and simple Android interface.
+A mobile-first personal expense tracking application built with **React Native and Expo**. Daily Expense Tracker helps users record, organize, search, and analyze their daily expenses through a clean and user-friendly Android interface.
+
+The application is designed with a local-first approach, allowing core expense information to be stored locally on the device.
 
 ---
 
-## 📱 Project Overview
+## 📱 Download Android APK
 
-Daily Expense Tracker is designed to make personal expense management simple and organized.
+You can download and install the Android version of the application directly from this repository.
 
-Users can:
+### ⬇️ Download APK
 
-- Add daily expenses
-- Edit existing expenses
-- Delete expenses
-- Search expenses
-- Organize expenses by category
-- View expenses by date
-- Track monthly budgets
-- Analyze spending
-- Manage recurring expenses
-- Switch between light and dark themes
-- Access different sections through a navigation drawer
-- Store core expense data locally
+[**📲 Download Daily Expense Tracker APK**](./Daily-Expense-Tracker.apk)
 
-The project is built with a **local-first approach**, so the main expense data does not require a custom backend server.
+> **Note:** The APK is intended for Android devices. Download the APK on your Android device and install it to try the application.
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-## 🏠 Dashboard
+### 🏠 Dashboard
 
-The dashboard provides a quick overview of spending.
+The dashboard provides a quick overview of the user's expenses and important spending information.
 
-Features include:
+It includes:
 
-- Today's spending
+- Today's expenses
 - Monthly spending
-- Expense summary
+- Expense summaries
 - Recent expenses
 - Quick Add Expense
 - Navigation menu
 
 ---
 
-## ➕ Add Expense
+### ➕ Add Expense
 
-Users can create a new expense by entering:
+Users can add new expenses by entering important details such as:
 
 - Amount
 - Category
@@ -61,14 +51,19 @@ Amount: ₹250
 Category: Food
 Date: 03 October 2026
 Description: Lunch
+...
 
 
-ExpenseTracker/
+# PROJECT STRUCTURE
+
+
+Daily-Expense-Tracker/
 │
 ├── App.js
 ├── package.json
 ├── eas.json
 ├── README.md
+├── Daily-Expense-Tracker.apk
 │
 ├── src/
 │   │
@@ -103,29 +98,5 @@ ExpenseTracker/
 │       └── LockScreen.js
 │
 └── android/
-
-
-
-App.js
- │
- ├── AppProvider
- │
- └── NavigationContainer
-       │
-       ├── Bottom Tabs
-       │    ├── Home
-       │    ├── Calendar
-       │    ├── Analytics
-       │    └── Settings
-       │
-       └── Stack Screens
-            ├── Add Expense
-            ├── Budget
-            ├── Categories
-            ├── Recurring
-            ├── Data Management
-            ├── Search
-            └── Lock
-
-            
+    └──
 
