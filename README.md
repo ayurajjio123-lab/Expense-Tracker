@@ -1,116 +1,33 @@
 # 💰 Daily Expense Tracker
 
-A mobile-first expense tracking application built with **React Native and Expo**.  
-Daily Expense Tracker helps users record, manage, search, and analyze their expenses through a clean and simple Android interface.
+A mobile-first expense tracking application built with React Native and Expo.
 
 ---
 
-## 📱 Project Overview
+# 📱 Download Android APK
 
-Daily Expense Tracker is designed to make personal expense management simple and organized.
+You can download and install the latest Android APK from this repository.
 
-Users can:
+### ⬇️ Download
 
-- Add daily expenses
-- Edit existing expenses
-- Delete expenses
-- Search expenses
-- Organize expenses by category
-- View expenses by date
-- Track monthly budgets
-- Analyze spending
-- Manage recurring expenses
-- Switch between light and dark themes
-- Access different sections through a navigation drawer
-- Store core expense data locally
+[**Download Daily Expense Tracker APK**](./Daily-Expense-Tracker.apk)
 
-The project is built with a **local-first approach**, so the main expense data does not require a custom backend server.
+> **Note:** This APK is intended for Android devices. Download the APK and install it on your Android device.
 
 ---
 
 # ✨ Features
 
-## 🏠 Dashboard
+- Add expenses
+- Edit expenses
+- Delete expenses
+- Expense search
+- Budget management
+- Analytics
+- Categories
+- Recurring expenses
+- Dark/Light mode
+- Navigation drawer
+- Local data storage
 
-The dashboard provides a quick overview of spending.
-
-Features include:
-
-- Today's spending
-- Monthly spending
-- Expense summary
-- Recent expenses
-- Quick Add Expense
-- Navigation menu
-
----
-
-## ➕ Add Expense
-
-Users can create a new expense by entering:
-
-- Amount
-- Category
-- Date
-- Description
-
-Example:
-
-```text
-Amount: ₹250
-Category: Food
-Date: 03 October 2026
-Description: Lunch
-
-
-
-
-
-
-
-
-Project Structure
-
-
-ExpenseTracker/
-│
-├── App.js
-├── package.json
-├── eas.json
-├── README.md
-│
-├── src/
-│   │
-│   ├── components/
-│   │   ├── Header.js
-│   │   ├── Screen.js
-│   │   ├── Card.js
-│   │   └── ExpenseRow.js
-│   │
-│   ├── context/
-│   │   └── AppContext.js
-│   │
-│   ├── storage/
-│   │   └── storage.js
-│   │
-│   ├── utils/
-│   │   ├── date.js
-│   │   └── theme.js
-│   │
-│   └── screens/
-│       ├── HomeScreen.js
-│       ├── AddExpenseScreen.js
-│       ├── BudgetScreen.js
-│       ├── AnalyticsScreen.js
-│       ├── CalendarScreen.js
-│       ├── CategoriesScreen.js
-│       ├── RecurringScreen.js
-│       ├── DataManagementScreen.js
-│       ├── SearchScreen.js
-│       ├── SettingsScreen.js
-│       ├── MenuDrawer.js
-│       └── LockScreen.js
-│
-└── android/
-
-
+...
